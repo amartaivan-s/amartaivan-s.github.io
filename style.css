@@ -6,6 +6,11 @@ body {
   padding: 0;
 }
 
+a img {
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
 a {
   color: #90caf9;
   text-decoration: none;
