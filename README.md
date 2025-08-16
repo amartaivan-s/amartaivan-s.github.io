@@ -1,6 +1,6 @@
 # 🌐 Amartaivan Sanjjamts — Personal Academic Website
 
-This repository hosts my personal academic website: [askimon.github.io](https://askimon.github.io)
+This repository hosts my personal academic website: [amartaivan-s.github.io](https://amartaivan-s.github.io)
 
 It includes:
 - Basic bio and research interests
@@ -14,7 +14,7 @@ It includes:
 - [LinkedIn](https://www.linkedin.com/in/amartaivan-sanjjamts-5483271bb/)
 - [ORCID](https://orcid.org/0009-0000-4787-2891)
 - [Google Scholar](https://scholar.google.com/citations?user=u54UVcsAAAAJ&hl=en)
-- [GitHub Projects](https://github.com/askimon)
+- [GitHub Projects](https://github.com/amartaivan-s)
 
 ---
 
