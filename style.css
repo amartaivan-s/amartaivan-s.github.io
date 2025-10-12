@@ -57,56 +57,59 @@ li {
 
 .projects {
   margin: 3em auto;
-  max-width: 1000px;
+  max-width: 1100px;
   padding: 0 1em;
   text-align: center;
 }
 
 .projects h2 {
   font-size: 1.8em;
+  color: #f5f5f5;
   margin-bottom: 1em;
-  color: #333;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  letter-spacing: 0.5px;
+  text-shadow: 0 0 8px rgba(0, 255, 200, 0.2);
 }
 
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+/* Use Flexbox instead of Grid */
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1.5em;
-  margin-top: 2em;
 }
 
-.project-card {
-  display: block;
-  background: linear-gradient(135deg, #f8f9fa, #eef1f6);
+.project-item {
+  flex: 1 1 300px;
+  max-width: 320px;
+  background: rgba(30, 30, 40, 0.85);
+  border: 1px solid rgba(100, 255, 218, 0.25);
   border-radius: 12px;
   padding: 1.2em;
   text-align: left;
   text-decoration: none;
-  color: #222;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  color: #e0e0e0;
+  box-shadow: 0 0 8px rgba(0, 255, 200, 0.1);
   transition: all 0.25s ease-in-out;
-  border: 1px solid #e1e4ea;
 }
 
-.project-card:hover {
+.project-item:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 14px rgba(0,0,0,0.12);
-  background: linear-gradient(135deg, #fdfdfd, #f3f6fb);
+  box-shadow: 0 0 20px rgba(0, 255, 200, 0.35);
+  border-color: rgba(100, 255, 218, 0.6);
+  background: rgba(40, 60, 70, 0.9);
 }
 
-.project-card h3 {
-  font-size: 1.1em;
+.project-item h3 {
+  color: #64ffda;
+  font-size: 1.05em;
   margin-bottom: 0.4em;
-  color: #007acc;
 }
 
-.project-card p {
+.project-item p {
   font-size: 0.95em;
-  line-height: 1.4;
-  color: #444;
+  line-height: 1.5;
+  color: #ccc;
 }
-
 
 footer {
   text-align: center;
